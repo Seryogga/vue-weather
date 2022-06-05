@@ -31,7 +31,7 @@ export default {
   name: "app",
   data() {
     return {
-      api_key: "696459f72f6f81be093f9df10f28a02c",
+      api_key: import.meta.env.VITE_WEATHER_API,
       url_base: "https://api.openweathermap.org/data/2.5/",
       query: "",
       weather: {},
